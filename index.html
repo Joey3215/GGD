@@ -1010,30 +1010,30 @@
     </div>
   </div>
 
-  <div class="contact-form">
+  <form action="https://formspree.io/f/mdawnjyk" method="POST" class="contact-form">
     <div class="form-row">
       <div class="form-field">
         <label>First Name</label>
-        <input type="text" placeholder="John">
+        <input type="text" name="first_name" placeholder="John">
       </div>
       <div class="form-field">
         <label>Last Name</label>
-        <input type="text" placeholder="Smith">
+        <input type="text" name="last_name" placeholder="Smith">
       </div>
     </div>
     <div class="form-row">
       <div class="form-field">
         <label>Phone</label>
-        <input type="tel" placeholder="(614) 555-0000">
+        <input type="tel" name="phone" placeholder="(614) 555-0000">
       </div>
       <div class="form-field">
         <label>Email</label>
-        <input type="email" placeholder="john@email.com">
+        <input type="email" name="email" placeholder="john@email.com">
       </div>
     </div>
     <div class="form-field">
       <label>Service Needed</label>
-      <select>
+      <select name="service">
         <option value="" disabled selected>Select a service…</option>
         <option>Garage Door Installation</option>
         <option>Garage Door Opener Installation</option>
@@ -1045,10 +1045,10 @@
     </div>
     <div class="form-field">
       <label>Message</label>
-      <textarea placeholder="Describe your garage door issue or project…"></textarea>
+      <textarea name="message" placeholder="Describe your garage door issue or project…"></textarea>
     </div>
     <button type="submit" class="btn-primary" style="border:none;cursor:pointer;font-size:0.9rem;">Request My Free Quote →</button>
-  </div>
+  </form>
 </section>
 
 <!-- FOOTER -->
